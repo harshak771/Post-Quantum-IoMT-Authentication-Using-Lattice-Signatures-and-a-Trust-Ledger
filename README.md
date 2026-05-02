@@ -60,3 +60,9 @@ pip install numpy pandas matplotlib streamlit
 
 - This is an **academic prototype** intended for learning and demos.
 - It is **not** hardened cryptography and should not be used in production.
+
+## Vercel Deployment Note
+
+Vercel serves the static landing page in `index.html`. The Streamlit dashboard
+is not hosted on Vercel; run it locally with `streamlit run web.py` or deploy
+the Streamlit app to a platform that supports Python web servers.
